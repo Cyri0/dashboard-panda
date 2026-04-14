@@ -1,0 +1,21 @@
+.followerCard{
+    width: 100%;
+    background: var(--clr-dark-card-bg-navy-950);
+    color: white;
+    text-align: center;
+
+    a{
+        color: var(--clr-toggle-light-gray-400);
+        font-weight: bold;
+        text-decoration: none;
+    }
+    h2{
+        font-size: 3rem;
+    }
+    h3{
+        color: var(--clr-toggle-light-gray-400);
+        font-weight: 100;
+        text-transform: uppercase;
+        letter-spacing: 0.5rem;
+    }
+}

@@ -1,4 +1,5 @@
 import { useState } from "react"
+import FollowerCard from "./components/FollowerCard"
 
 const App = () => {
   const [isLightMode, setLightMode] = useState(true)
@@ -9,6 +10,16 @@ const App = () => {
            className={"toggleSwitch " + (isLightMode ? "light" : "dark")}>
         <div></div>
       </div>
+
+      <FollowerCard 
+        platform="instagram"
+        icon="/images/icons/icon-instagram.svg"
+        handle="@realnathanf"
+        count={11000}
+        deltaToday={1099}
+        metric="followers"
+      />
+
     </main>
   )
 }
