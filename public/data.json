@@ -1,0 +1,88 @@
+{
+  "accounts": [
+    {
+      "platform": "facebook",
+      "icon":"/images/icons/icon-facebook.svg",
+      "handle": "@nathanf",
+      "metric": "followers",
+      "count": 1987,
+      "deltaToday": 12
+    },
+    {
+      "platform": "twitter",
+      "icon":"/images/icons/icon-twitter.svg",
+      "handle": "@nathanf",
+      "metric": "followers",
+      "count": 1044,
+      "deltaToday": 99
+    },
+    {
+      "platform": "instagram",
+      "icon":"/images/icons/icon-instagram.svg",
+      "handle": "@realnathanf",
+      "metric": "followers",
+      "count": 11000,
+      "countDisplay": "11k",
+      "deltaToday": 1099
+    },
+    {
+      "platform": "youtube",
+      "icon":"/images/icons/icon-youtube.svg",
+      "handle": "Nathan F.",
+      "metric": "subscribers",
+      "count": 8239,
+      "deltaToday": -144
+    }
+  ],
+  "overviewToday": [
+    {
+      "platform": "facebook",
+      "metric": "pageViews",
+      "count": 87,
+      "changePercent": 3
+    },
+    {
+      "platform": "facebook",
+      "metric": "likes",
+      "count": 52,
+      "changePercent": -2
+    },
+    {
+      "platform": "instagram",
+      "metric": "likes",
+      "count": 5462,
+      "changePercent": 2257
+    },
+    {
+      "platform": "instagram",
+      "metric": "profileViews",
+      "count": 52000,
+      "countDisplay": "52k",
+      "changePercent": 1375
+    },
+    {
+      "platform": "twitter",
+      "metric": "retweets",
+      "count": 117,
+      "changePercent": 303
+    },
+    {
+      "platform": "twitter",
+      "metric": "likes",
+      "count": 507,
+      "changePercent": 553
+    },
+    {
+      "platform": "youtube",
+      "metric": "likes",
+      "count": 107,
+      "changePercent": -19
+    },
+    {
+      "platform": "youtube",
+      "metric": "totalViews",
+      "count": 1407,
+      "changePercent": -12
+    }
+  ]
+}
