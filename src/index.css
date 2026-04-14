@@ -75,6 +75,25 @@ main.dark{
 
 .toggleSwitch{
   background: var(--grad-toggle-dark);
-  width: 100px;
-  aspect-ratio: 5 / 2;
+  height: 4rem;
+  aspect-ratio: 4 / 2;
+  border-radius: 2rem;
+
+  position: relative;
+  >div{
+    background: var(--clr-dark-top-bg-gray-900);
+    height: 3rem;
+    position: absolute;
+    top: 0.5rem;
+    left: 0.5rem;
+    aspect-ratio: 1 / 1;
+    border-radius: 50%;
+    transition: left 0.3s;
+  }
+}
+
+.toggleSwitch.dark{
+  >div{
+    left: 4.5rem;
+  }
 }
